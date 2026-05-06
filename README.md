@@ -1,8 +1,8 @@
-# Documentação do Projeto: AgenteMercado - Seguro
+# Documentação do Projeto: AgenteMercado
 
 ## 1. Introdução
 
-O projeto `AgenteMercado - Seguro` é um assistente de IA desenvolvido para gerenciar operações de um mercado, incluindo cadastro e atualização de produtos e clientes. Ele utiliza a biblioteca LangGraph para orquestrar um fluxo de trabalho conversacional, onde um Large Language Model (LLM) interage com o usuário e executa ações específicas através de ferramentas (tools) que manipulam um banco de dados SQLite.
+O projeto `AgenteMercado` é um assistente de IA desenvolvido para gerenciar operações de um mercado, incluindo cadastro e atualização de produtos e clientes. Ele utiliza a biblioteca LangGraph para orquestrar um fluxo de trabalho conversacional, onde um Large Language Model (LLM) interage com o usuário e executa ações específicas através de ferramentas (tools) que manipulam um banco de dados SQLite.
 
 ## 2. Arquitetura Geral
 
@@ -105,4 +105,4 @@ Além disso, é necessário ter um servidor Ollama em execução com o modelo `l
 
 ## 6. Conclusão
 
-O `AgenteMercado - Seguro` é um exemplo robusto de como combinar LLMs com ferramentas e um grafo de estados para criar assistentes conversacionais capazes de interagir com sistemas externos, como bancos de dados. A modularidade do design permite fácil extensão e manutenção das funcionalidades de gerenciamento de produtos e clientes.
+O `AgenteMercado` é um exemplo robusto de como combinar LLMs com ferramentas e um grafo de estados para criar assistentes conversacionais capazes de interagir com sistemas externos, como bancos de dados. A modularidade do design permite fácil extensão e manutenção das funcionalidades de gerenciamento de produtos e clientes.
