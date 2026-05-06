@@ -1,0 +1,5 @@
+langchain
+langgraph
+sqlalchemy
+langchain-ollama
+rich
